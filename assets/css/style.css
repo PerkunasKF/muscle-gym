@@ -27,6 +27,9 @@
 
 #sticky-navigation-bar {
     background-color: #000;
+
+    top: 0;
+    position: sticky;
 }
 
 .navigation-link-text {
@@ -135,4 +138,123 @@
     border-width: 85%;
     text-align: center;
     padding-top: 5px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                  Footer styles                                                          */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #000;
+}
+
+#footer-gym-logo {
+    height: 100px;
+    width: 100px;
+    margin: 5px 0 5px;
+}
+
+#footer-gym-logo:hover {
+    border: 2px solid #fca311;
+    border-radius: 50%;
+}
+
+.social-link {
+    color: #fca311;
+    font-size: 32px;
+
+    margin: 5px 3px 5px;
+}
+
+.social-link:hover {
+    color: #000;
+
+    background-color: #fca311;
+
+    border: 1px solid #fca311;
+    border-radius: 5px;
+}
+
+#footer-contacts {
+    width: 100%;
+    border-width: 75%;
+}
+
+#footer-contacts:hover {
+    border: 2px solid #fca311;
+    border-radius: 5px;
+}
+
+#footer-contacts-button {
+    color: #fca311;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3px;
+
+    background-color: transparent;
+    
+    box-shadow: none;
+    border: none;
+}
+
+#footer-contacts-button:hover {
+    box-shadow: none;
+    border: none;
+}
+
+#footer-contacts .dropdown-menu {
+    background-color: #000000;
+
+    width: 100%;
+
+    border: 2px solid #fca311;
+    border-radius: 5px;
+}
+
+#footer-contacts .dropdown-item {
+    color: #fca311;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#footer-contacts .dropdown-item:hover {
+    color: #000;
+    background-color: #fca311;
+}
+
+.footer-subscribe-form {
+    color: #fca311;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+}
+
+#footer-subscribe-imput {
+    height: 30px;
+    border: 2px solid #fca311;
+    border-radius: 5px;
+    background: #000000;
+    width: 95%;
+}
+
+#footer-subscribe-buttom {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #fca311;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 30px;
+}
+
+#footer-subscribe-buttom:hover {
+    color: #fca311;
+    background-color: #000000;
+    border-color: #fca311;
 }
