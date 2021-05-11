@@ -25,6 +25,13 @@
 /*                                                  General styles                                                         */
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
+body {
+    background-image: url('../images/background-02_pexels-pixabay-220237.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -35,9 +42,6 @@
 
 #sticky-navigation-bar {
     background-color: #000;
-
-    top: 0;
-    position: sticky;
 }
 
 .navigation-link-text {
@@ -336,4 +340,110 @@ autor Pixabay] */
     #cover-text h1 {
         font-size: 200%;
     }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                 Home feuter section                                                     */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+#home-feuter-section {
+    margin: 40px 0 20px;
+}
+
+#home-feuter-container {
+    margin: auto;
+    width: 95%;
+}
+
+.feuter-title-cover-text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 26px;
+    font-weight: 600;
+
+    margin: 27px 10px 0;
+}
+
+.feuter-cover-text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0 10px 0;
+}
+
+.line-cover-seperation {
+    border-top: 3px solid #fff;
+    padding-top: 5px;
+}
+
+.feuter-title-text {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 26px;
+    font-weight: 600;
+
+    margin: 0 10px 0;
+}
+
+.feuter-text {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 35px 10px 0;
+}
+
+.feuter-cover-col {
+    height: 250px;
+    margin: 5px 0 5px;
+    padding: 0;
+
+    border: 3px solid #f39c6b;
+    border-radius: 5px;
+
+    background-color: #000;
+}
+
+.feuter-col {
+    height: 250px;
+    margin: 5px 0 5px;
+    padding: 0;
+
+    border: 3px solid #000;
+    border-radius: 5px;
+
+    background-color: #f39c6b;
+}
+
+.line-seperation {
+    border-top: 3px solid #000;
+    padding-top: 5px;
+}
+
+        /*---------------------------------------------- Home feuter carusel -----------------------------------------------*/
+
+@media (min-width: 0px) and (max-width: 991.98px) {
+    .feuter-cover-col {
+        height: 350px;
+    }
+
+    .feuter-col {
+        height: 350px;
+    }
+
+    .feuter-text {
+        font-size: 20px;   
+        margin: 63px 10px 0;
+    }
+}
+
+#home-feuter-carusel {
+    margin: auto;
+    width: 95%;
+    height: 350px;
 }
