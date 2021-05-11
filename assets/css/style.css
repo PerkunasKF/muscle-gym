@@ -25,6 +25,9 @@
 /*                                                  General styles                                                         */
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
+/*  Images copied from [https://www.pexels.com/photo/blur-chains-chrome-close-up-220237/]
+    on 2021-05-11
+    Author: Pixabay */
 body {
     background-image: url('../images/background-02_pexels-pixabay-220237.jpg');
     background-repeat: no-repeat;
@@ -276,8 +279,9 @@ footer {
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 768px) {
-    /* Images id from [https://www.pexels.com/photo/bodybuilding-close-up-dumbbells-equipment-260352/ on 2021-05-11
-    autor Pixabay] */
+    /*  Images id from [https://www.pexels.com/photo/bodybuilding-close-up-dumbbells-equipment-260352/ 
+        on 2021-05-11
+        Autor: Estudio Polaroid] */
     #hero-image {
         height: 640px;
         width: 100%;
@@ -446,4 +450,81 @@ autor Pixabay] */
     margin: auto;
     width: 95%;
     height: 350px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                 Pricing| Membership plans                                               */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+#membership-plans {
+    margin: 40px 0 20px;
+}
+
+.membership-card {
+    width: 95%;
+    margin: 10px 0 10px;
+
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+.membership-card, .membership-card li {
+    background-color: #f39c6b;
+}
+
+.membership-card ul, .membership-card .card-footer {
+    border: 2px solid #000;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .membership-card {
+        width: 75%;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                 Prinign| Group training                                                 */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+#membership-section {
+    margin: 40px 0 20px;
+}
+
+#group-training-container {
+    margin: auto;
+    width: 95%;
+}
+
+#group-trainig-container .feuter-title-text, 
+#group-trainig-container .feuter-text,
+#group-trainig-container .line-seperation {
+    color: #fff;
+    border-color: #fff;
+}
+
+#group-trainig-container .feuter-col {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#group-1 {
+    /*  Image copiet from [https://www.pexels.com/photo/active-adult-biceps-body-416809/] 
+        on 2021-05-12
+        author: Pixabay */
+    background-image: url("../images/group-1_basic_strenght_pexels-pixabay-416809.jpg");
+}
+
+#group-2 {
+    /*  Image copiet from [https://www.pexels.com/photo/man-doing-boxing-163403/] 
+        on 2021-05-12
+        author: Pixabay */
+    background-image: url("../images/group-2_boxing_pexels-pixabay-163403.jpg");
+}
+
+#group-3 {
+    /*  Image copiet from [https://www.pexels.com/photo/person-in-black-activewear-using-a-stationary-bicycle-7690217/] 
+        on 2021-05-12
+        author: Cottonbro */
+    background-image: url("../images/group-3_Bycickle_pexels-cottonbro-7690217.jpg");
 }
