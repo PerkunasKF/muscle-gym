@@ -22,6 +22,14 @@
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                  General styles                                                         */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
 /*                                                  Navigation bar Styles                                                  */
 /*-------------------------------------------------------------------------------------------------------------------------*/
 
@@ -257,4 +265,75 @@ footer {
     color: #fca311;
     background-color: #000000;
     border-color: #fca311;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                 Hero image                                                              */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+    /* Images id from [https://www.pexels.com/photo/bodybuilding-close-up-dumbbells-equipment-260352/ on 2021-05-11
+    autor Pixabay] */
+    #hero-image {
+        height: 640px;
+        width: 100%;
+        background-image: url("../images/hero-image_pexels-estudio-polaroid-3112004.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+#cover-text {
+    width: 225px;
+    height: 225px;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+}
+
+#cover-text h1 {
+    font-size: 300%;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+@media (max-width: 767.98px) {
+    /* Images if from [https://www.pexels.com/photo/bodybuilding-close-up-dumbbells-equipment-260352/ on 2021-05-11
+autor Pixabay] */
+    #hero-image {
+        height: 640px;
+        width: 100%;
+        background-image: url("../images/hero-image-small_pexels-pixabay-260352.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #cover-text {
+        width: 150px;
+        height: 150px;
+        bottom: 10;
+        right: 15px;
+    }
+    
+    #cover-text h1 {
+        font-size: 200%;
+    }
+}
+
+@media (max-height: 360px) {
+    
+    #cover-text {
+        width: 150px;
+        height: 150px;
+        bottom: 10;
+        right: 15px;
+    }
+
+    #cover-text h1 {
+        font-size: 200%;
+    }
 }
