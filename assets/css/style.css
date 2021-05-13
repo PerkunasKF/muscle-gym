@@ -39,6 +39,13 @@ body {
     text-transform: uppercase;
 }
 
+h5 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------*/
 /*                                                  Navigation bar Styles                                                  */
 /*-------------------------------------------------------------------------------------------------------------------------*/
@@ -490,6 +497,10 @@ autor Pixabay] */
     margin: 40px 0 20px;
 }
 
+#group-training-section {
+    margin: 40px 0 20px;
+}
+
 #group-training-container {
     margin: auto;
     width: 95%;
@@ -497,12 +508,15 @@ autor Pixabay] */
 
 #group-trainig-container .feuter-title-text, 
 #group-trainig-container .feuter-text,
-#group-trainig-container .line-seperation {
+#group-trainig-container .line-seperation,
+#home-feuter-carusel .feuter-title-text,
+#home-feuter-carusel .feuter-text {
     color: #fff;
     border-color: #fff;
 }
 
-#group-trainig-container .feuter-col {
+#group-trainig-container .feuter-col,
+#home-feuter-carusel .feuter-col {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -527,4 +541,143 @@ autor Pixabay] */
         on 2021-05-12
         author: Cottonbro */
     background-image: url("../images/group-3_Bycickle_pexels-cottonbro-7690217.jpg");
+}
+
+#group-4 {
+    /* Image copiet from [https://www.pexels.com/photo/man-people-woman-art-7375827/] 
+    on 2021-05-13
+    author: Niko Twisty*/
+    background-image: url("../images/group-4_calisthenics_pexels-niko-twisty-7375827.jpg");
+}
+
+#group-5 {
+    /* Image copiet from [https://www.pexels.com/photo/man-holding-barbell-1431282/] 
+    on 2021-05-13
+    author: Anush Gorak*/
+    background-image: url("../images/group-5_fittnes_pexels-anush-gorak-1431282.jpg");
+}
+
+#group-6 {
+    /* Image copiet from [https://www.pexels.com/photo/man-working-out-2294361/] 
+    on 2021-05-13
+    author: Li Sun*/
+    background-image: url("../images/group-6_impact_pexels-li-sun-2294361.jpg");
+}
+
+#group-7 {
+    /* Image copiet from [https://www.pexels.com/photo/fashion-man-love-people-6296015/] 
+    on 2021-05-13
+    author: Pavel Danilyuk*/
+    background-image: url("../images/group-7_kick-boxing_pexels-pavel-danilyuk-6296015.jpg");
+}
+
+#group-8 {
+    /* Image copiet from [https://www.pexels.com/photo/woman-doing-aerobics-374909/] 
+    on 2021-05-13
+    author: Burst*/
+    background-image: url("../images/group-8_yoga_pexels-burst-374909.jpg");
+}
+
+#group-9 {
+    /* Image copiet from [https://www.pexels.com/photo/side-view-photo-of-woman-doing-lunges-against-black-background-2417512/] 
+    on 2021-05-13
+    author: Oleg Magni*/
+    background-image: url("../images/group-9_zumba_pexels-oleg-magni-2417512.jpg");
+}
+
+#group-10 {
+    /* Image copiet from [https://www.pexels.com/photo/woman-lifting-two-dumbells-on-both-hands-in-front-of-mirror-1886487/] 
+    on 2021-05-13
+    author: Eduardo Romero*/
+    background-image: url("../images/group-10_muscle_up_pexels-eduardo-romero-1886487.jpg");
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                 Prinign| Trainers                                                       */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+#trainer-section .card p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#trainer-section .card {
+    border: 3px solid #000;
+    border-top: none;
+}
+
+#trainer-section .nav {
+    border: 3px solid #000;
+    border-bottom: none;
+
+    background-color: #000;
+}
+
+.trainer-profile-picture {
+    height: 100%;
+    margin: 10px 5px 10px;
+
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.trainer-profile-picture img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.trainer-info-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+@media (max-width: 899.98px) {
+    #trainer-section .card p {
+        font-size: 18px;
+    }
+
+    #trainer-section h5 {
+        font-weight: 26px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 769.89px) {
+    .triner-info {
+        height: 200px;
+    }
+ 
+    .trainer-profile-picture {
+        height: 400px;
+        border: none;
+    }
+
+    .trainer-profile-picture img {
+        margin: auto;
+
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .triner-info {
+        height: 300px;
+    }
+ 
+    .trainer-profile-picture {
+        height: 300px;
+        border: none;
+    }
+
+    .trainer-profile-picture img {
+        margin: auto;
+
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
 }
