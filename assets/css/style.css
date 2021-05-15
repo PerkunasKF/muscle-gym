@@ -779,3 +779,121 @@ autor Pixabay] */
         overflow: scroll;
     }
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*                                                 Contacts page                                                           */
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+#adress-section {
+    margin: 25px 0 25px;
+}
+
+#adress-container {
+    width: 95%;
+}
+
+#google-map iframe {
+    height: 350px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#contact-info {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#contact-info h4 {
+    margin-top: 100px;
+    border-bottom: 1px solid #fff;
+}
+
+#contact-info h4,
+#contact-info p {
+    margin-left: 30px;
+}
+
+#contact-info p {
+    line-height: 25pt;
+}
+
+#question {
+    margin: 20px 0 25px;
+}
+
+#question-container {
+    width: 95%;
+}
+
+#question-form {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 10px 20px;
+}
+
+#question-form textarea {
+    width: 600px;
+    height: 200px;
+
+    border: 3px solid #fca311;
+    background-color: transparent;
+}
+
+#question-form textarea:focus {
+    border-color: #fff;
+    color: #fff;
+    background-color: #000;
+    outline: none;
+}
+
+#question-email {
+    width: 400px;
+
+    border: 3px solid #fca311;
+    border-radius: 5px;
+
+    background-color: transparent;
+}
+
+#question-email:focus {
+    border: 3px solid #fff;
+    background-color: #000;
+    outline: none;
+    color: #fff;
+}
+
+#question-submit {
+    width: 100px;
+    border: 3px solid #fca311;
+    border-radius: 5px;
+
+    background-color: transparent;
+
+    color: #fca311;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#question-submit:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+@media (max-width: 769.98px) {
+    #question-form textarea {
+        width: 100%;
+    }
+
+    #question-email {
+        width: 100%;
+    }
+
+    #question-submit {
+        margin-top: 10px;
+    }
+}
