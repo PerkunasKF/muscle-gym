@@ -879,9 +879,11 @@ autor Pixabay] */
     font-size: 18px;
 }
 
-#question-submit:hover {
+#question-submit:hover,
+#question-submit:focus {
     border-color: #fff;
     color: #fff;
+    outline: none;
 }
 
 @media (max-width: 769.98px) {
