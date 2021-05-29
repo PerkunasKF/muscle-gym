@@ -108,5 +108,5 @@ A scope was defined in order to clearly identify what needed to be done in order
 #### Structure
 The information architecture was organized in a **hierarchial tree structure** in order to ensure that users could navigate through the site with ease and efficiency.
 
-![Site Map](assets/images/Page layot plan.png)
+![Site Map](assets/images/page-layot-plan.png)
 
