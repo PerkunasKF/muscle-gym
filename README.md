@@ -30,7 +30,6 @@
      1. [Content](#Content)
      2. [Media](#Media)
      3. [Code](#Code)
-9. [Acknowledgements](#Acknowledgements)
 ***
 
 ## Introduction
@@ -219,3 +218,126 @@ Each page of the website features a consistent responsive navigational system:
 </dl>
 
 ### Existing Features
+- **Header Logoo** - Appears on every page for brand recognition. On hover a round frame appears and on click redirect the user to the home page.
+- **Header Navigation Bar** - Appears on every page and is fixed to the top of the page so the user can easily navigate true website's pages.
+- **Log In Button** - On hover changes back ground and font color.
+- **Toggler** - Replaces the navigation bar links on smaller screens and features a drop down menu on click to all the links and the **Log In** button.
+- **Footer Logo** - On hover a round frame appears and on click redirect the user to the home page.
+- **Media Social Links** - On hover changes background and font color. On click opens a new tab to selected social media.
+- **Contacts Button** - On hover an orange frame appears. On click a drop down menu appears with link to redirect the user to the **Front desk** (content page) or **Trainer** contact information.
+- **Newsletter Form** - Email input on focus changes border color to white and text font color to white. Subscribe button changes background color and font color on hover and click. Email input is necessary.
+- **Feature carousel** - Appears on smaller screens. Fits all the feature on the home page and allows users to scroll thru them. If not, control features scroll them self.
+- **Group Trainin carousel** - Appear on smaller screens. Fits all group training programs on the pricing page and allows users to scroll thru them. If not, control programs scroll them self.
+- **Google Map** - The map shows, gym location (location is fictional) and is fully responsive.
+
+[Back to top ⇧](#Muscle-Gym)
+
+## Issues and Bugs 
+
+Noteworthy list of issues encountered during development.
+
+**Nav Bar Stiky Bug** - During development issue occur when trying to implement sticky to top feature to the navigation bar. The navigation bar would only be sticky for a part of the page and then stop. The solution was found on [W3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp "Link to w3schools sticky navigation explanationn"). After reading true the explanation and having the code the problem was that the sticky navigation stick to a particular section so the solution was to make a section for the entire page except the footer and add sticky feature to the header.
+
+**Footer Not Always On The Bottom Bug** -
+
+**Cover Text Not At the Right Spot Bug** - 
+
+**Feature Container Alignment Bug** - During development feature alignment cause problems: whenever increasing the distends between each feature the food container would stack under the other three. Using **Bootstrap** .col class the columns would be divide early true the spaces, but whenever increasing the margin the columns would not behave as wanted. A solution was instead of increasing the morning to put every column, int to another column and use the **Bootstrap** provade gutters as the wanted spaces.
+
+**Trainer Profile Picture Not Fitting Bug** - When applying the image to the trainer profile card the image would be too big and take up all the space of the screen. If tried to make the image smaller the image will be destroyed. Setting it up as a background image would make it be cut off and not the one-year image would be usable. The salute was found on [Stack Overflow](https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container "Image fitting to a container solution"). Soliution was to make image have max with and max height.
+
+**Question Formu Background Color Bug** - After selecting the forum and inputting text background for mum's container would change color to black, but after not forcing it would go back to transparent. The solution was to add a focus subclass in style.css.
+
+[Back to top ⇧](#Muscle-Gym)
+
+## Technologies Used
+### Main Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+
+### Frameworks, Libraries & Programs Used
+- [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+    - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Roboto".
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [Git](https://git-scm.com/ "Link to Git homepage")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+- [Figma](https://www.figma.com/ "Link to Figma homepage")
+     - Figma was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+[Back to top ⇧](#Muscle-Gym)
+
+## Testing
+
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+
+## Deployment
+
+This project was developed using [Git Hub](https://github.com/ "Git Hub site").
+
+### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "GitHub Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+8. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
+
+### Forking the Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+3. At the top of the repository, on the right side of the page, select "Fork"
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Creating a Clone
+How to run this project locally:
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
+2. After installation, restart the browser.
+3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+5. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+How to run this project within a local IDE, such as VSCode:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+3. Under the repository name, click "Clone or download".
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone', and then paste the URL you copied in Step 3.
+```
+git clone https://github.com/USERNAME/REPOSITORY
+```
+8. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
+
+[Back to top ⇧](#Muscle-Gym)
+
+## Credits 
+
+### Media
+- All photographic images were used for [Pexels](https://www.pexels.com/ "Link to Pexel Home page"). All credits to image authors are written before the image.
+- All logo images were made on [Free logo design](https://www.freelogodesign.org/).
+
+### Code
+To better understand the code that was being implemented many sites were used if the code was copied it was made shared that it would be referenced in the code. This site was used on a frequent basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
+
+[Back to top ⇧](#Muscle-Gym)
