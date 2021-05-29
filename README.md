@@ -114,4 +114,26 @@ The information architecture was organized in a **hierarchial tree structure** i
 Wireframe mockups were created in a [Figma Workspace](https://www.figma.com/file/Wd7fHpgJvJui9r4ixh1Xaz/Muscle-Gym?node-id=0%3A1):
 
 Home Page:
-![Home Page Wireframe](assets/images/muscle-gym-home.png "Home page Wireframe")
+(prideti paveiksla)
+
+Pricing Page:
+(prideti paveiksla)
+
+Community Page:
+(prideti paveiksla)
+
+Conntact Page:
+(prideti paveiksla)
+
+### Design
+
+#### Colour Scheme
+The main colors used are a mixture of black, orange, grey and white.
+
+#### Typography
+Font [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google font") is used, throughout the website with Sans Serif as the fallback font.
+
+#### Imagery
+Images were provided from [Pexels](https://www.pexels.com/) All credits are given to respective image authors credited before the image in the code.
+
+Logo images ehere created on [Free logo design](https://www.freelogodesign.org/).
