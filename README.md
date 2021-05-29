@@ -104,3 +104,9 @@ A scope was defined in order to clearly identify what needed to be done in order
           - Easily navigate through the site in order to find the information they want
           - Contact Gym staff for any raised question
           - Get the latest news about the gym's events and new services
+
+#### Structure
+The information architecture was organized in a **hierarchial tree structure** in order to ensure that users could navigate through the site with ease and efficiency.
+
+![Site Map](assets/images/Page layot plan.png)
+
