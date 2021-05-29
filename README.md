@@ -111,4 +111,7 @@ The information architecture was organized in a **hierarchial tree structure** i
 ![Site Map](assets/images/page-layot-plan.png)
 
 #### Skeleton 
-Wireframe mockups were created in a [Figma Workspace](https://www.figma.com/file/Wd7fHpgJvJui9r4ixh1Xaz/Muscle-Gym?node-id=0%3A1) with providing a positive user experience in mind:
+Wireframe mockups were created in a [Figma Workspace](https://www.figma.com/file/Wd7fHpgJvJui9r4ixh1Xaz/Muscle-Gym?node-id=0%3A1):
+
+Home Page:
+![Home Page Wireframe](assets/readme-files/muscle-gym-home.png)
