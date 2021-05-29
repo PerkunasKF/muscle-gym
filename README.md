@@ -1,4 +1,6 @@
-# muscle-gym
+# Muscle Gym
+
+![Muscle gym hero image](assets/images/hero-image_pexels-estudio-polaroid-3112004.jpg)
 
 Prideti vaizda kaip atrodo puslapis ivaruose prietaisuose
 
