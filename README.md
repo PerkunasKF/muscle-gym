@@ -41,6 +41,6 @@ This is the first Milestone Project from necessary for the project to complete t
 
 The main requirement was to make a static and a responsive website with minimum three pages using primarily **HTML** and **CSS3**.
 
-[Back to top ⇧](#Muscle Gym)
+[Back to top ⇧](#Muscle-Gym)
 
 
