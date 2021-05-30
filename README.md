@@ -157,9 +157,6 @@ Each page of the website features a consistent responsive navigational system:
             <li>
                 <strong>Feuter section</strong> - Occupies 95% of the page width. The section is divided into title container and feauter containers. The title container is styled differently to separate from the feature and feature containers have a brief description of the gym's services and features. On smaller screens this feature containers is fitted into a carousel so not to occupy too much space.
             </li>
-            <li>
-                <strong>Gallary section</strong> - The section is placed to show gyms events, looks and equipment so to attract attention.
-            </li>
         </ul>
     </dd>
 </dl>
