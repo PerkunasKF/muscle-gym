@@ -837,6 +837,8 @@ autor Pixabay] */
 }
 
 #question-form textarea {
+    color :#fca311;
+    
     width: 600px;
     height: 200px;
 
@@ -852,6 +854,8 @@ autor Pixabay] */
 }
 
 #question-email {
+    color :#fca311;
+
     width: 400px;
 
     border: 3px solid #fca311;
@@ -861,6 +865,8 @@ autor Pixabay] */
 }
 
 #question-email:focus {
+    border-color: #fff;
+
     border: 3px solid #fff;
     background-color: #000;
     outline: none;
