@@ -12,7 +12,6 @@
 2. [Manual Testing](#Manual-Testing)
 3. [Automated Testing](#Automated-Testing) 
      - [Code Validation](#Code-Validation)
-     - [Browser Validation](#Browser-Validation)
      - [Lighthouse Auditing](#Lighthouse-Auditing)
 4. [User Testing](#User-Testing)
 
@@ -112,8 +111,40 @@ Manual testing was done on page elements that appear on every page:
 
 ### Code Validation
 
-### Browser Validation
+The [W3C Markup Validator](https://validator.w3.org/) was used to validate the `HTML` code used.
+
+**Results:**
+
+- Home page
+
+![Home Page HTML Validation Results](assets/testing/automated/Home-page-varification.png)
+
+- Pricing page
+
+![Pricing Page HTML Validation Results](assets/testing/automated/Pricing-page-varification.png)
+
+- Community page
+
+![Community Page HTML Validation Results](assets/testing/automated/Community-page-varification.png)
+
+- Contact page
+
+![Community Page HTML Validation Results](assets/testing/automated/Contacts-page-varification.png)
+
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate the `CSS` coded used.
+
+![CSS Validation Results](assets/testing/automated/CSS-validation.png)
+
+[Back to top ⇧](#Muscle-Gym)
 
 ### Lighthouse Auditing
 
+- Click [here](assets/testing/Lighthous.pdf) for full report
+
 ## User testing 
+
+Friend and family were asked to look and comment on the website. Their responses and comments helped improve the site.
+
+[Back to top ⇧](#Muscle-Gym)
+
+***
