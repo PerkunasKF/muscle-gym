@@ -206,12 +206,24 @@ footer {
     border-width: 75%;
 }
 
+#footer-contacts #dropdownMenuButton {
+    color: #fca311;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    background-color: transparent;
+    
+    box-shadow: none;
+    border: none;
+}
+
 #footer-contacts:hover {
     border: 2px solid #fca311;
     border-radius: 5px;
 }
 
-#footer-contacts-button {
+/**.footer-contacts-button {
     color: #fca311;
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
@@ -222,9 +234,9 @@ footer {
     
     box-shadow: none;
     border: none;
-}
+}**/
 
-#footer-contacts-button:hover {
+.footer-contacts-button:hover {
     box-shadow: none;
     border: none;
 }
@@ -312,7 +324,7 @@ footer {
     position: absolute;
 }
 
-#cover-text h1 {
+#cover-text h2 {
     font-size: 300%;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
@@ -340,7 +352,7 @@ autor Pixabay] */
         right: 15px;
     }
     
-    #cover-text h1 {
+    #cover-text h2 {
         font-size: 200%;
     }
 }
@@ -354,7 +366,7 @@ autor Pixabay] */
         right: 15px;
     }
 
-    #cover-text h1 {
+    #cover-text h2 {
         font-size: 200%;
     }
 }
@@ -537,70 +549,70 @@ autor Pixabay] */
     background-blend-mode: darken;
 }
 
-#group-1 {
+.group-1 {
     /*  Image copiet from [https://www.pexels.com/photo/active-adult-biceps-body-416809/] 
         on 2021-05-12
         author: Pixabay */
     background-image: url("../images/group-1_basic_strenght_pexels-pixabay-416809.jpg");
 }
 
-#group-2 {
+.group-2 {
     /*  Image copiet from [https://www.pexels.com/photo/man-doing-boxing-163403/] 
         on 2021-05-12
         author: Pixabay */
     background-image: url("../images/group-2_boxing_pexels-pixabay-163403.jpg");
 }
 
-#group-3 {
+.group-3 {
     /*  Image copiet from [https://www.pexels.com/photo/person-in-black-activewear-using-a-stationary-bicycle-7690217/] 
         on 2021-05-12
         author: Cottonbro */
     background-image: url("../images/group-3_Bycickle_pexels-cottonbro-7690217.jpg");
 }
 
-#group-4 {
+.group-4 {
     /* Image copiet from [https://www.pexels.com/photo/man-people-woman-art-7375827/] 
     on 2021-05-13
     author: Niko Twisty*/
     background-image: url("../images/group-4_calisthenics_pexels-niko-twisty-7375827.jpg");
 }
 
-#group-5 {
+.group-5 {
     /* Image copiet from [https://www.pexels.com/photo/man-holding-barbell-1431282/] 
     on 2021-05-13
     author: Anush Gorak*/
     background-image: url("../images/group-5_fittnes_pexels-anush-gorak-1431282.jpg");
 }
 
-#group-6 {
+.group-6 {
     /* Image copiet from [https://www.pexels.com/photo/man-working-out-2294361/] 
     on 2021-05-13
     author: Li Sun*/
     background-image: url("../images/group-6_impact_pexels-li-sun-2294361.jpg");
 }
 
-#group-7 {
+.group-7 {
     /* Image copiet from [https://www.pexels.com/photo/fashion-man-love-people-6296015/] 
     on 2021-05-13
     author: Pavel Danilyuk*/
     background-image: url("../images/group-7_kick-boxing_pexels-pavel-danilyuk-6296015.jpg");
 }
 
-#group-8 {
+.group-8 {
     /* Image copiet from [https://www.pexels.com/photo/woman-doing-aerobics-374909/] 
     on 2021-05-13
     author: Burst*/
     background-image: url("../images/group-8_yoga_pexels-burst-374909.jpg");
 }
 
-#group-9 {
+.group-9 {
     /* Image copiet from [https://www.pexels.com/photo/side-view-photo-of-woman-doing-lunges-against-black-background-2417512/] 
     on 2021-05-13
     author: Oleg Magni*/
     background-image: url("../images/group-9_zumba_pexels-oleg-magni-2417512.jpg");
 }
 
-#group-10 {
+.group-10 {
     /* Image copiet from [https://www.pexels.com/photo/woman-lifting-two-dumbells-on-both-hands-in-front-of-mirror-1886487/] 
     on 2021-05-13
     author: Eduardo Romero*/

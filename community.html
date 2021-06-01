@@ -23,7 +23,7 @@
 <body>
 
     <!-- Section for sticky navigation bar -->
-    <section class="all-contant">
+    <div class="all-contant">
         <header id="sticky-navigation-bar" class="sticky-top">
             <div class="container-fluid">
                 <div class="row">
@@ -89,7 +89,7 @@
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="news" role="tabpanel" aria-labelledby="news-tab">
+                            <div class="tab-pane fade show active" id="news" role="tabpanel">
                                 <div id="news-container" class="container-fluid">
                                     <div class="row news-segment">
                                         <div
@@ -127,7 +127,7 @@
                                         <div
                                             class="col-12 col-sm-3 d-flex align-items-center justify-content-center news-image">
                                             <!-- Image for logo made on https://www.freelogodesign.org/ -->
-                                            <img src="assets/images/muscle-gym-logo-full-yelow.png">
+                                            <img src="assets/images/muscle-gym-logo-full-yelow.png" alt="Muscle Gym logo">
                                         </div>
                                         <div class="col-12 col-sm-9 news-text">
                                             <h4>"Strong Man"</h4>
@@ -141,7 +141,7 @@
                                         <div
                                             class="col-12 col-sm-3 d-flex align-items-center justify-content-center news-image">
                                             <!-- Image for logo made on https://www.freelogodesign.org/ -->
-                                            <img src="assets/images/muscle-gym-logo-full-yelow.png">
+                                            <img src="assets/images/muscle-gym-logo-full-yelow.png" alt="Muscle Gym logo">
                                         </div>
                                         <div class="col-12 col-sm-9 news-text">
                                             <h4>New member of staf</h4>
@@ -156,7 +156,7 @@
                                         <div
                                             class="col-12 col-sm-3 d-flex align-items-center justify-content-center news-image">
                                             <!-- Image for logo made on https://www.freelogodesign.org/ -->
-                                            <img src="assets/images/muscle-gym-logo-full-yelow.png">
+                                            <img src="assets/images/muscle-gym-logo-full-yelow.png" alt="Muscle Gym logo">
                                         </div>
                                         <div class="col-12 col-sm-9 news-text">
                                             <h4>Nutrition seminar</h4>
@@ -187,7 +187,7 @@
                                         <div
                                             class="col-12 col-sm-3 d-flex align-items-center justify-content-center news-image">
                                             <!-- Image for logo made on https://www.freelogodesign.org/ -->
-                                            <img src="assets/images/muscle-gym-logo-full-yelow.png" alt="Gym logo">
+                                            <img src="assets/images/muscle-gym-logo-full-yelow.png" alt="Muscle Gym logo">
                                         </div>
                                         <div class="col-12 col-sm-9 news-text">
                                             <h4>Group training</h4>
@@ -216,7 +216,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="galery-tab">
+                            <div class="tab-pane fade" id="gallery" role="tabpanel">
                                 <div class="row">
                                     <div id="gallery-pictures" class="col">
                                         <!--Image copiet from [https://www.pexels.com/photo/man-working-out-2294361/] 
@@ -280,9 +280,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
 
-    </section>
+    </div>
 
     <footer>
         <div class="container-fluid">
@@ -316,8 +317,8 @@
                 <div class="col d-flex justify-content-center align-items-center">
                     <!-- Coppyed for [https://getbootstrap.com/] -->
                     <div id="footer-contacts" class="dropdown text-center">
-                        <button id="footer-contacts-button" class="btn btn-secondary" type="button"
-                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button id="dropdownMenuButton" class="btn btn-secondary footer-contacts-button" type="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Contacts
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">

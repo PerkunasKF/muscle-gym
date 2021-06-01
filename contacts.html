@@ -23,7 +23,7 @@
 <body>
 
     <!-- Section for sticky navigation bar -->
-    <section class="all-contant">
+    <div class="all-contant">
         <header id="sticky-navigation-bar" class="sticky-top">
             <div class="container-fluid">
                 <div class="row">
@@ -95,24 +95,23 @@
         </section>
 
 
-        <section id="question">
+        <div id="question">
             <div id="question-container" class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <form id="question-form">
-                            <label for="question-area"><h4>Have question, ask us</h4></label><br>
+                            <label for="question-area">Have question, ask us</label><br>
                             <textarea id="question-area" name="question-textarea" required></textarea><br>
                             <label for="question-email">Your email:</label>
                             <input id="question-email" type="email" name="q-email" required>
                             <input id="question-submit" type="submit" value="Submit">
-                            </input>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-    </section>
+    </div>
 
     <footer class="sticky-bottom">
         <div class="container-fluid">
@@ -146,8 +145,8 @@
                 <div class="col d-flex justify-content-center align-items-center">
                     <!-- Coppyed for [https://getbootstrap.com/] -->
                     <div id="footer-contacts" class="dropdown text-center">
-                        <button id="footer-contacts-button" class="btn btn-secondary" type="button"
-                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button id="dropdownMenuButton" class="btn btn-secondary footer-contacts-button" type="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Contacts
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
