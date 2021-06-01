@@ -58,6 +58,16 @@ Manual testing was done on page elements that appear on every page:
 - Hover over header element will trigger a visual response.
 
      ![Header element hover](assets/testing/MS-1_header-hover.gif)
+     
+- On a small screen, clicking on a **toggle** icon will open drop down links, hovering over them will trigger a visual response.
+
+     ![Header element hover on small screen](assets/testing/MS-1_header-small-hover.gif)
+     
+- Hovering over the footer element will trigger a visual response.
+- Clicking on contacts button will open a dropdown menu, hearing over menu items will trigger a visual response.
+- Clicking forum elements will trigger a visual response, not entering email address will trigger a recorded message.
+
+     ![Header element hover on small screen](assets/testing/MS-1_footer-hover.gif)
 
 ## Automated Testing
 
