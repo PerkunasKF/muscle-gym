@@ -78,13 +78,35 @@ Manual testing was done on page elements that appear on every page:
 - A feature section on the home page will compress into a carousel on small screen sizes.
 - Navigating true the carousel is possible with control buttons.
 
-     ![Header element hover on small screen](assets/testing/MS-1_home-carusles-02.gif)
+     ![Home page carousel](assets/testing/MS-1_home-carusles-02.gif)
 
-- Home page responsiveness.
-     
-     
-     
+### Pricing Page
 
+- A group training section will compress into a carousel on small screen sizes.
+     
+     ![Prising page caruousel](assets/testing/MS-1_prising-carusel.gif)
+     
+- Trainer section, clicking on trainer names on the navigation bar will open a card with the trainer's profile and description.
+
+     ![Trainers profile information](assets/testing/MS-1_prising-trainers.gif)
+     
+### Community Page
+
+- Clicking on the navigation links about the content container will open desired information.
+- News segments are in an overflow container to reduce the page's height.
+
+     ![Comunaty page content](assets/testing/MS-1_communaty-page.gif)
+
+### Contact Page
+
+- Goole map container is responsive to user controls and shows location of the gym on load.
+
+     ![Google map](assets/testing/MS-1_contacts-google-map.gif)
+     
+- Question forum will chain visuals after the click.
+- If tester or email area is not filed or not valid message will appear after submit button click.
+
+     ![Question forum](assets/testing/MS-1_contacts-question-form.gif)
 
 ## Automated Testing
 
