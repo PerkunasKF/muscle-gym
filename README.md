@@ -1,6 +1,6 @@
 # Muscle Gym
 
-![Muscle gym hero image](assets/images/hero-image_pexels-estudio-polaroid-3112004.jpg)
+![Muscle Gym Mockup Images](assets/images/responsivnes.png)
 
 [View the live project here](https://perkunaskf.github.io/muscle-gym/)
 
@@ -232,9 +232,7 @@ Noteworthy list of issues encountered during development.
 
 **Nav Bar Stiky Bug** - During development issue occur when trying to implement sticky to top feature to the navigation bar. The navigation bar would only be sticky for a part of the page and then stop. The solution was found on [W3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp "Link to w3schools sticky navigation explanationn"). After reading true the explanation and having the code the problem was that the sticky navigation stick to a particular section so the solution was to make a section for the entire page except the footer and add sticky feature to the header.
 
-**Footer Not Always On The Bottom Bug** -
-
-**Cover Text Not At the Right Spot Bug** - 
+**Footer Not Always On The Bottom Bug** - During development issue occur where at shorter pages the footer would not be at the bottom and there would be a blank space. A solution was found on [Stackoverflow](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b). By editing the section of a sticky navigation container to making it be 100% in height it made the page load on the entire screen height.
 
 **Feature Container Alignment Bug** - During development feature alignment cause problems: whenever increasing the distends between each feature the food container would stack under the other three. Using **Bootstrap** .col class the columns would be divide early true the spaces, but whenever increasing the margin the columns would not behave as wanted. A solution was instead of increasing the morning to put every column, int to another column and use the **Bootstrap** provade gutters as the wanted spaces.
 
