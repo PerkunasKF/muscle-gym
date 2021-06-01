@@ -57,7 +57,7 @@ Manual testing was done on page elements that appear on every page:
 
 - Hover over header element will trigger a visual response.
 
-     [Header element hover](asset/testin/MS-1_header-hover.gif)
+     ![Header element hover](assets/testing/MS-1_header-hover.gif)
 
 ## Automated Testing
 
