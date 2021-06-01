@@ -67,7 +67,24 @@ Manual testing was done on page elements that appear on every page:
 - Clicking on contacts button will open a dropdown menu, hearing over menu items will trigger a visual response.
 - Clicking forum elements will trigger a visual response, not entering email address will trigger a recorded message.
 
-     ![Header element hover on small screen](assets/testing/MS-1_footer-hover.gif)
+     ![Footer hover](assets/testing/MS-1_footer-hover.gif)
+     
+- Clicking on social media link icons in the footer will open them in a separate tab
+
+     ![Footer social link redirect](assets/testing/MS-1_footer-social-links.gif)
+     
+### Home page
+
+- A feature section on the home page will compress into a carousel on small screen sizes.
+- Navigating true the carousel is possible with control buttons.
+
+     ![Header element hover on small screen](assets/testing/MS-1_home-carusles-02.gif)
+
+- Home page responsiveness.
+     
+     
+     
+
 
 ## Automated Testing
 
