@@ -117,23 +117,23 @@ The [W3C Markup Validator](https://validator.w3.org/) was used to validate the `
 
 - Home page
 
-![Home Page HTML Validation Results](assets/testing/automated/Home-page-varification.png)
+![Home Page HTML Validation Results](assets/testing/Home-page-varification.png)
 
 - Pricing page
 
-![Pricing Page HTML Validation Results](assets/testing/automated/Pricing-page-varification.png)
+![Pricing Page HTML Validation Results](assets/testing/Pricing-page-varification.png)
 
 - Community page
 
-![Community Page HTML Validation Results](assets/testing/automated/Community-page-varification.png)
+![Community Page HTML Validation Results](assets/testing/Community-page-varification.png)
 
 - Contact page
 
-![Community Page HTML Validation Results](assets/testing/automated/Contacts-page-varification.png)
+![Community Page HTML Validation Results](assets/testing/Contacts-page-varification.png)
 
 The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate the `CSS` coded used.
 
-![CSS Validation Results](assets/testing/automated/CSS-validation.png)
+![CSS Validation Results](assets/testing/CSS-validation.png)
 
 [Back to top ⇧](#Muscle-Gym)
 
