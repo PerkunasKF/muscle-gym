@@ -161,7 +161,6 @@ h5 {
 
 #burger-login {
     border-top: 2px solid #fca311;
-    border-width: 85%;
     text-align: center;
     padding-top: 5px;
 }
@@ -203,7 +202,6 @@ footer {
 
 #footer-contacts {
     width: 100%;
-    border-width: 75%;
 }
 
 #footer-contacts #dropdownMenuButton {
@@ -348,7 +346,6 @@ autor Pixabay] */
     #cover-text {
         width: 150px;
         height: 150px;
-        bottom: 10;
         right: 15px;
     }
     
@@ -362,7 +359,6 @@ autor Pixabay] */
     #cover-text {
         width: 150px;
         height: 150px;
-        bottom: 10;
         right: 15px;
     }
 
@@ -669,7 +665,7 @@ autor Pixabay] */
     }
 
     #trainer-section h5 {
-        font-weight: 26px;
+        font-size: 26px;
     }
 }
 
