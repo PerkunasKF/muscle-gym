@@ -216,6 +216,11 @@ Each page of the website features a consistent responsive navigational system:
 
 ## Issues and Bugs 
 
+### Commit History
+
+During development, developer made "git commit" comment after finishing major blocks of the website (eg. header, footer, page or its contents). The developer was not aware that it had to be done after every detail add. This was only pointed out after the first developing meeting with the mentor. At that point majority of website was finished and only few bugs were left to fix and write the **README** and **TESTING** files. Regarding the repeating messages in commit history of **README** and **TESTING** files, those files were edited in **github** and not in **gitpod** and the developer was not aware that they will appear to commit history.
+After this issue was pointed out to the developer, deloper started adding commits after smaller eddies of the project.
+
 Noteworthy list of issues encountered during development.
 
 **Nav Bar Stiky Bug** - During development issue occur when trying to implement sticky to top feature to the navigation bar. The navigation bar would only be sticky for a part of the page and then stop. The solution was found on [W3schools](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp "Link to w3schools sticky navigation explanationn"). After reading true the explanation and having the code the problem was that the sticky navigation stick to a particular section so the solution was to make a section for the entire page except the footer and add sticky feature to the header.
