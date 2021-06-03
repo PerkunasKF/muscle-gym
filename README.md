@@ -4,7 +4,7 @@
 
 [View the live project here](https://perkunaskf.github.io/muscle-gym/)
 
-##Table of contents
+## Table of contents
 1. [Introduction](#Introduction)
 2. [UX](#UX)
     1. [Ideal User Demographic](#Ideal-User-Demographic)
