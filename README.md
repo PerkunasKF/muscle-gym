@@ -14,6 +14,7 @@
 3. [Features](#Features)
     1. [Design Features](#Design-Features) 
     2. [Existing Features](#Existing-Features)
+    3. [Futer Features](#Futer-Features)
 4. [Issues and Bugs](#Issues-and-Bugs)
 5. [Technologies Used](#Technologies-Used)
      1. [Main Languages Used](#Main-Languages-Used)
@@ -211,6 +212,12 @@ Each page of the website features a consistent responsive navigational system:
 - **Feature carousel** - Appears on smaller screens. Fits all the feature on the home page and allows users to scroll thru them. If not, control features scroll them self.
 - **Group Trainin carousel** - Appear on smaller screens. Fits all group training programs on the pricing page and allows users to scroll thru them. If not, control programs scroll them self.
 - **Google Map** - The map shows, gym location (location is fictional) and is fully responsive.
+
+### Futer Features
+This feuter were not implemented becose of lack of time:
+- **Gym Featuers** - Add more information with a pop up content holder for the home page's features sections.
+- **Schedule Page** - For group training section, adding link with a redirection to an extra page with schedule for group training sessions.
+- **Group Training Info** - Add more information with a pop up content holder for the training group section in the pricing page.
 
 [Back to top ⇧](#Muscle-Gym)
 
